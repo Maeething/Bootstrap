@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div class="container-xxl bg-light">
         <h1 class="text-primary mb-5">My first Bootstrap site</h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque itaque <span class="text-white bg-dark">cum consectetur</span> laboriosam debitis modi nostrum expedita vel quasi maxime illo delectus sapiente necessitatibus, consequatur veritatis dicta asperiores. Praesentium, magnam.</p>
@@ -64,8 +64,50 @@
             <li class="alert alert-info">Információ</li>
             <li class="alert alert-white">Fehér</li>
         </ul>
+    </div>
 
+    <div class="container">
+        <h1 class="text-center">Grid System</h1>
 
+        <h2 class="text-center">3 oszlop</h2>
+        <div class="row">
+            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores obcaecati at. Nostrum quos eaque labore, eius ad ut exercitationem, dolore aut repellat accusamus reiciendis vitae voluptates doloremque! Nobis, doloremque!</div>
+            <div class="col">Veritatis quae fuga accusantium rerum similique! Soluta illo quas minima tempore corporis ratione sunt omnis officiis eius. Sit minus, delectus aut unde molestias debitis dolor facilis animi esse nihil veniam?</div>
+            <div class="col">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+        </div>
+
+        <h2 class="text-center">2 oszlop</h2>
+        <div class="row">
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores obcaecati at. Nostrum quos eaque labore, eius ad ut exercitationem, dolore aut repellat accusamus reiciendis vitae voluptates doloremque! Nobis, doloremque!</div>
+            <div class="col-6">Veritatis quae fuga accusantium rerum similique! Soluta illo quas minima tempore corporis ratione sunt omnis officiis eius. Sit minus, delectus aut unde molestias debitis dolor facilis animi esse nihil veniam?</div>
+            <div class="col-6">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+        </div>
+
+        <h2 class="text-center">Responsive</h2>
+        <div class="row">
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores obcaecati at. Nostrum quos eaque labore, eius ad ut exercitationem, dolore aut repellat accusamus reiciendis vitae voluptates doloremque! Nobis, doloremque!</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Veritatis quae fuga accusantium rerum similique! Soluta illo quas minima tempore corporis ratione sunt omnis officiis eius. Sit minus, delectus aut unde molestias debitis dolor facilis animi esse nihil veniam?</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+            <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+        </div>
+
+        <h2>Változó száélesség</h2>
+        <div class="row">
+            <div class="col-2 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores obcaecati at. Nostrum quos eaque labore, eius ad ut exercitationem, dolore aut repellat accusamus reiciendis vitae voluptates doloremque! Nobis, doloremque!</div>
+            <div class="col-8 bg-success">Veritatis quae fuga accusantium rerum similique! Soluta illo quas minima tempore corporis ratione sunt omnis officiis eius. Sit minus, delectus aut unde molestias debitis dolor facilis animi esse nihil veniam?</div>
+            <div class="col-2 bg-info">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+        </div>
+
+        <h2>Számított száélesség</h2>
+        <div class="row">
+            <div class="col bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt asperiores obcaecati at. Nostrum quos eaque labore, eius ad ut exercitationem, dolore aut repellat accusamus reiciendis vitae voluptates doloremque! Nobis, doloremque!</div>
+            <div class="col-7 bg-success">Veritatis quae fuga accusantium rerum similique! Soluta illo quas minima tempore corporis ratione sunt omnis officiis eius. Sit minus, delectus aut unde molestias debitis dolor facilis animi esse nihil veniam?</div>
+            <div class="col  bg-info">Repellendus ipsa aspernatur sed possimus maxime necessitatibus temporibus, debitis repudiandae ullam labore tenetur aliquam. Id ullam aliquid autem tempora voluptate, quam nam! Qui harum amet doloremque, ea eos quaerat ex.</div>
+        </div>
+
+        
 
     </div>
 
